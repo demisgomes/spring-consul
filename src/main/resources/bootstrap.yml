@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-consul
+  cloud:
+    consul:
+      host: 192.168.22.128
+      port: 8500
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: application
+        profileSeparator: '::'
